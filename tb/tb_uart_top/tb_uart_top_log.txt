@@ -1,0 +1,12 @@
+run all
+[210000] Reset deasserted
+[330000] TX_DATA write: 0x41
+[390000] TX_DATA write: 0x42
+[450000] TX_DATA write: 0x43
+[510000] TX_DATA write: 0x44
+[1000550000] STATUS = 0x00000001
+[1000610000] RX_DATA[0] = 0x41
+[1000670000] RX_DATA[1] = 0x42
+[1000730000] RX_DATA[2] = 0x43
+[1000790000] RX_DATA[3] = 0x44
+$finish called at time : 1100790 ns : File "C:/Users/koji/Documents/fpga_coding_test/tb/tb_uart_top/tb_uart_top.sv" Line 192
